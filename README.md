@@ -28,7 +28,7 @@ logger.log('haha')
 }
 ```
 
-### 3. ErrorHandler
+### 3. ErrorHandler
 
 > 初始化
 
@@ -56,10 +56,10 @@ errorHandler(customError[, err])
 customeError: {
   errorName,
   vendorCode,
-  message, // 当匹配不到已有 errorName 时，message 将会被包含在返回对象中
+  message, // 当匹配不到已有 errorName 时, message 将会被包含在返回对象中
 }
 
-err: 原有 Error 错误
+err: 原有 Error 错误
 ```
 
 > return Error
