@@ -17,7 +17,7 @@ var {logger, ErrorHandler} = require('homebase-logger')(size)
 logger.log('haha')
 ```
 
-> setLogger(_logger): 自定义 logger 
+> setLogger(_logger): `可选` 自定义 logger 
  
 ```
 {
@@ -33,15 +33,15 @@ logger.log('haha')
 > 初始化
 
 ```
-var errorHandler = ErrorHandler(obj); // obj 自定义错误码
+var errorHandler = ErrorHandler(obj); // `可选`: obj 自定义错误码
 ```
 
 > obj Example
 
 ```
 {
-  enterName: {
-    enterName,
+  errorName: {
+    errorName,
     message,
     vendorCode
   }
@@ -54,9 +54,9 @@ var errorHandler = ErrorHandler(obj); // obj 自定义错误码
 errorHandler(customError[, err])
 
 customeError: {
-  errorName,
-  vendorCode,
-  message, // 当匹配不到已有 errorName 时, message 将会被包含在返回对象中
+  errorName, // 匹配错误码
+  vendorCode, // 可选
+  message, // 可选 当匹配不到已有 errorName 时, message 将会被包含在返回对象中
 }
 
 err: 原有 Error 错误
