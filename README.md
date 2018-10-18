@@ -46,7 +46,7 @@ customeError: {
   debugInfo // 可选
 }
 
-err: 原有 Error 错误
+err: 原有 <Error Object> 错误
 ```
 
 > return Error
