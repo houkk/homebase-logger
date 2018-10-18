@@ -1,19 +1,19 @@
 {
-  "name": "homebase-logger",
+  "name": "homebase-util",
   "version": "1.0.0",
-  "description": "homebase logger for rokid",
+  "description": "homebase util for rokid",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/houkk/homebase-logger.git"
+    "url": "git+https://github.com/houkk/homebase-util.git"
   },
   "author": "houkk",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/houkk/homebase-logger/issues"
+    "url": "https://github.com/houkk/homebase-util/issues"
   },
-  "homepage": "https://github.com/houkk/homebase-logger#readme"
+  "homepage": "https://github.com/houkk/homebase-util#readme"
 }
