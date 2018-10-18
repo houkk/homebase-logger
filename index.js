@@ -21,6 +21,6 @@ module.exports = {
   utilInit: function (size, envLogger) {
     UtilInit.getInstance(size, envLogger);
   },
-  logger,
-  errorHandler,
+  logger: logger,
+  errorHandler: errorHandler,
 }
