@@ -1,6 +1,6 @@
 {
   "name": "homebase-util",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "homebase util for rokid",
   "main": "index.js",
   "scripts": {
